@@ -1,0 +1,205 @@
+* {
+    margin:0;
+    padding:0;
+    font-family: 'Ubuntu', sans-serif; 
+  }
+
+ html {
+  background-image: url("https://digitaldetox.io/wp-content/uploads/2018/02/AI-world-forum-background-cropped-1920x1000.jpg");
+  background-size:cover;
+      }
+  
+header h1 {
+  font-family: 'Ubuntu', sans-serif;
+  text-align:center;
+  padding-top:70px;
+  color:white;
+  font-size:60px;
+          }
+
+header {
+background-image: url("https://coolbackgrounds.io/images/backgrounds/index/sea-edge-79ab30e2.png");
+background-repeat: no-repeat;
+background-size:cover;
+height:200px;
+width:100%;
+
+       }
+
+
+nav {
+width: 100%; 
+background-color: #98CBE3;
+overflow: auto; 
+    }
+  
+nav ul li a {
+float:left;
+text-align: center; 
+width: 363.5px; 
+padding: 12px 7.5px; 
+color: white; 
+font-size: 32px;
+font-family: 'Ubuntu', sans-serif;
+            }
+          
+
+nav ul li {
+list-style-type: none;
+margin: 0;
+padding: 0;      
+          }
+
+nav ul li a i {
+letter-spacing: 2px;
+font-weight: bold;
+              }
+
+
+a:hover {
+background-color: #98B2E3; 
+padding:12px;
+        }
+
+ 
+footer {
+text-align: justify;
+font-size: 1.5rem;
+margin-top: 900px;
+height: 10%;
+border: 2px solid #95E4F0;
+background-color:#DCE1F7;
+font-family: 'Ubuntu', sans-serif; 
+}
+  
+div.rekl {
+position: relative;
+display: block;
+float: right;
+height: 20vh;
+width: 50vh;
+margin-top: 200px;
+margin-right:-140px;
+border: 2px solid #A595F0;
+background-position: center;
+background-image: url("https://avap.nl/_files/system_preview_detail_200003115-c9c6ccac10/image_02_s.jpg");
+transform: rotate(90deg);
+background-repeat: no-repeat;
+font-size: 28px;
+          }
+
+div p {
+display:flex;
+font-size: 2rem;
+width:80%;
+margin-top:30px;
+margin-left:30px;
+background-image: linear-gradient(to right, #95E4F0,#9BD5FA,#98B2E3,#9BA3FA,#A595F0);
+border-radius:5%;
+      }
+
+aside {
+ position:fixed;
+ left:46%;
+ top:50%;
+ width:100%;
+ height:160px;
+ background-position: center;
+ background-image: url("https://avap.nl/_files/system_preview_detail_200003115-c9c6ccac10/image_02_s.jpg");
+ transform: rotate(90deg);
+  background-repeat: no-repeat;
+               }
+
+@media only screen and (max-width: 605px) {
+header h1 {
+  font-size:30px;
+  
+   }
+
+   h1 {
+    text-align: center;
+}   
+   nav ul li a {
+    text-align: center; 
+    color: white; 
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+    width:100%;
+                }
+              
+  a:hover {
+ background-color: #98B2E3; 
+ width:100%;
+       }              
+
+  
+ aside {
+display:none;
+   }
+
+  footer {
+  text-align: justify;
+  font-size: 1rem;
+  margin-top: 80%;
+  height: 10%;
+  border: 2px solid #95E4F0;
+  background-color:#DCE1F7;
+  font-family: 'Ubuntu', sans-serif; 
+    }
+
+  }         
+
+  @media only screen and (min-width: 605px) {
+    
+    header h1 {
+
+      font-size:36px;
+
+    }
+    
+    nav ul li a {
+      float:left;
+      display:inline-block;
+      text-align: justify; 
+      width: 17%;
+      padding: 12px 7.5px; 
+      color: white; 
+      font-size: 18px;
+      font-family: 'Ubuntu', sans-serif;
+                   
+    }
+
+   a:hover {
+    background-color: #98B2E3; 
+    width:17%;
+    height:40px;
+            } 
+  
+ 
+                                        }   
+   @media  only screen and (min-width:1024px) {
+
+       header h1 {
+  font-family: 'Ubuntu', sans-serif;
+  text-align:center;
+   padding-top:70px;
+  color:white;
+  font-size:50px;
+            }
+                                        
+  nav ul li a {
+     float:left;
+  text-align: center; 
+color: white; 
+font-size: 32px;
+font-family: 'Ubuntu', sans-serif;
+   }
+                                        
+    a:hover {
+    background-color: #98B2E3; 
+    width:20%;
+   height:65px;
+                                                                  
+             }                                                
+
+                                        }
